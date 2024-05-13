@@ -8,7 +8,7 @@
     },
     "scripts": {
         "start": "vite",
-        "build": "tsc && vite build && ls -la /home/runner/.config/configstore && ls -la /home/runner/.config/GitHub/ActionsService/8.0",
+        "build": "tsc && vite build && ls -la /home/runner/.config/configstore && ls -la /home/runner/.config/GitHub/ActionsService/8.0/Cache",
         "preview": "vite preview",
         "test:lint": "prettier --log-level silent --write . && eslint \"./src/**/*.?(js|jsx|ts|tsx)\"",
         "test": "jest --passWithNoTests",
